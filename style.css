@@ -1,0 +1,97 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body setup */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+/* Main Resume Container */
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Left Side */
+.left-side {
+    width: 35%;
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.contact-info, .skills {
+    margin-top: 20px;
+}
+
+.contact-info h2, .skills h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+.skills ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.skills li {
+    margin-bottom: 8px;
+}
+
+/* Right Side */
+.right-side {
+    width: 65%;
+    padding: 20px;
+    color: #333;
+}
+
+.right-side h2 {
+    font-size: 1.5rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2980b9;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.right-side p, .right-side li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.education ul {
+    list-style: disc;
+    margin-left: 20px;
+}
