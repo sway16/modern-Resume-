@@ -1,2 +1,2 @@
-# modern-Resume-project
+# modern-Resume-Project
 Own Portfolio
